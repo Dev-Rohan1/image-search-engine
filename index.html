@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>image search engine</title>
+    <!-- css file link -->
+    <link rel="stylesheet" href="./style.css">
+    <!-- custom cursor file link -->
+    <link rel="stylesheet" href="https://unpkg.com/kursor/dist/kursor.css">
+    <script src="https://cdn.jsdelivr.net/npm/kursor@0.0.14/dist/kursor.js"></script>
+</head>
+<body>
+    <!-- title -->
+    <h1>image search engine</h1>
+    <!-- search section -->
+    <form class="search-form">
+        <input type="text" class="search-box" placeholder="Search anything here...">
+        <button class="search-btn">Search</button>
+    </form>
+    <!-- search result section -->
+    <div class="search-result"></div>
+    <!-- more image load btn -->
+    <button class="show-more-btn">Show more</button>
+    <!-- js file link -->
+    <script src="./app.js"></script>
+    <!-- custom js file  -->
+    <script>
+        new kursor({
+            type: 2
+        })
+    </script>
+</body>
+</html>
