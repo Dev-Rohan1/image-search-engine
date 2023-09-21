@@ -1,5 +1,5 @@
 /**
- * Title: Weather application using JavaScript.
+ * Title: image search engine using JavaScript.
  * Description: This js file has all the js functions necessary to control the weather apps.
  * Author: (Dev Rohan).
  * Date: 21/09/2023.
